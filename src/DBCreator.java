@@ -8,7 +8,7 @@ public class DBCreator {
     DBCreator(String exp) throws Exception {
         _expression = exp;
 
-        dbSymbols = new HashMap<String, String[]>(){{
+        dbSymbols = new HashMap<>(){{
             put("0", new String[]{"██████",
                                   "█────█",
                                   "█─██─█",
